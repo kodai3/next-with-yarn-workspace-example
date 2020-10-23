@@ -5,9 +5,10 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "yarn --cwd packages/web-app dev",
-    "build": "yarn --cwd packages/web-app build",
-    "start": "yarn --cwd packages/web-app start"
+    "dev": "yarn workspace ts-app dev",
+    "build": "yarn workspace ts-app build",
+    "start": "yarn workspace ts-app start",
+    "deploy": "yarn workspace ts-app deploy"
   },
   "license": "MIT"
 }
