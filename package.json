@@ -10,5 +10,8 @@
     "start": "yarn workspace ts-app start",
     "deploy": "yarn workspace ts-app deploy"
   },
+  "devDependencies": {
+    "vercel": "^21.3.2"
+  },
   "license": "MIT"
 }
